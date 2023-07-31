@@ -4,7 +4,7 @@ import { sendEmailCredeantial, sendMail } from "../services/sendMail.js";
 import bcrypt from "bcrypt";
 import jwt from "jsonwebtoken";
 import dotenv from "dotenv";
-import { uploadS3 } from "../utills/multer.js";
+import { uploadS3 } from "../utills/uploadS3.js";
 // import { deleteExpiredOtp } from "./otpContoller.js";
 
 dotenv.config();
